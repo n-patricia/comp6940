@@ -2,6 +2,7 @@ import torch
 import torchvision
 
 # source: https://gist.github.com/alper111/8233cdb0414b4cb5853f2f730ab95a49
+# paper: https://arxiv.org/pdf/1603.08155
 class VGGPerceptualLoss(torch.nn.Module):
     def __init__(self, resize=True):
         super(VGGPerceptualLoss, self).__init__()
